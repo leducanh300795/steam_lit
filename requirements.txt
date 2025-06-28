@@ -1,0 +1,13 @@
+streamlit
+pandas
+scikit-learn
+openpyxl
+gensim
+imbalanced-learn
+joblib
+matplotlib
+seaborn
+langdetect
+deep-translator
+underthesea
+emoji

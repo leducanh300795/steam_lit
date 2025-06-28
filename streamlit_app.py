@@ -48,7 +48,7 @@ with st.sidebar:
 
 # ============ PAGE 1: GIỚI THIỆU ============
 if page == "Giới thiệu":
-    st.image("banner_itviec_2.jpg", use_container_width=True, caption="Nguồn: ITviec")
+    st.image("banner_itviec_2.jpg", caption="Nguồn: ITviec")
     st.title("Giới thiệu")
     st.markdown("""
 ## Về ITviec
@@ -74,7 +74,7 @@ Các trường chính:
 
 # ============ PAGE 2: PHÂN TÍCH & KẾT QUẢ ============
 elif page == "Phân tích & Kết quả":
-    st.image("banner_itviec_2.jpg", use_container_width=True, caption="Nguồn: ITviec")
+    st.image("banner_itviec_2.jpg", caption="Nguồn: ITviec")
     st.title("📊 Phân tích & Kết quả")
     st.markdown("""
 ## 1️⃣ Tiền xử lý dữ liệu
@@ -111,7 +111,7 @@ elif page == "Phân tích & Kết quả":
 
 # ============ PAGE 3: CONTENT-BASED SIMILARITY ============
 elif page == "Content-Based Similarity":
-    st.image("banner_itviec_2.jpg", use_container_width=True, caption="Nguồn: ITviec")
+    st.image("banner_itviec_2.jpg", caption="Nguồn: ITviec")
     st.title("🔍 Content-Based Company Similarity")
 
     @st.cache_data
@@ -189,7 +189,7 @@ elif page == "Content-Based Similarity":
 
 # ======================== PAGE 4: RECOMMEND CLASSIFICATION ========================
 elif page == "Recommend Classification":
-    st.image("banner_itviec_2.jpg", use_container_width=True, caption="Nguồn: ITviec")
+    st.image("banner_itviec_2.jpg", caption="Nguồn: ITviec")
     st.header("Recommend Classification")
     try:
         pipeline_rf = joblib.load("rf_pipeline_model_v2.joblib")

@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -12,6 +13,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from imblearn.pipeline import Pipeline as ImbPipeline
+from sklearn.pipeline import Pipeline
 from imblearn.over_sampling import RandomOverSampler
 import matplotlib.pyplot as plt
 import seaborn as sns

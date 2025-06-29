@@ -29,7 +29,8 @@ with st.sidebar:
             "Giới thiệu",
             "Phân tích & Kết quả",
             "Content-Based Similarity",
-            "Recommend Classification"
+            "Recommend Classification",
+            "Retrain Pipeline"
         ]
     )
     st.markdown("---")
@@ -268,7 +269,7 @@ elif page == "Recommend Classification":
 
 
 # ======================== PAGE 5: RETRAIN PIPELINE ========================
-elif page == "5. Retrain Pipeline":
+elif page == "Retrain Pipeline":
     st.header("Retrain Pipelines")
 
     if st.button("🔁 Retrain pipeline_like"):
